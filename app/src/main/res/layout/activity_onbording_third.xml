@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    tools:context=".ui.Onboarding_Screen.Onbording_third">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="372dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/c" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="484dp"
+        app:cardCornerRadius="32dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="153dp"
+            android:layout_marginTop="31dp"
+            android:fontFamily="@font/be_vietnam_bold"
+            android:text="Local"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="106dp"
+            android:layout_marginEnd="41dp"
+            android:gravity="center"
+            android:fontFamily="@font/be_vietnam"
+            android:text="We love the earth and know you do too! Join us in reducing our local carbon footprint one order at a time. "
+            android:textSize="14dp" />
+
+        <LinearLayout
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginStart="172dp"
+            android:layout_marginTop="214dp"
+            android:layout_marginEnd="202.67dp"
+            android:background="@drawable/circle"
+            />
+
+        <LinearLayout
+            android:layout_width="16.33dp"
+            android:layout_height="7dp"
+            android:layout_marginStart="201.67dp"
+            android:layout_marginTop="214dp"
+            android:layout_marginEnd="173dp"
+            android:background="@drawable/rectangle"
+            />
+
+        <LinearLayout
+            android:layout_width="7dp"
+            android:layout_height="7dp"
+            android:layout_marginStart="187dp"
+            android:layout_marginTop="214dp"
+            android:layout_marginEnd="187.67dp"
+            android:background="@drawable/circle"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="236dp"
+            android:layout_height="60dp"
+            android:id="@+id/joinbtn"
+            android:textSize="18dp"
+            android:backgroundTint="@color/yellow"
+            android:fontFamily="@font/be_vietnam"
+            android:text="Join the movement!"
+            android:layout_marginStart="77dp"
+            android:layout_marginTop="281dp"
+            android:layout_marginEnd="78dp"
+            />
+
+        <TextView
+            android:id="@+id/loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="177dp"
+            android:layout_marginTop="357dp"
+            android:layout_marginEnd="177dp"
+            android:fontFamily="@font/be_vietnam"
+            android:text="@string/login"
+            android:textSize="14dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

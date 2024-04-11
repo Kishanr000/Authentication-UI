@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.VerifyOTP">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="272dp"
+        android:fontFamily="@font/be_vietnam"
+        android:text="FarmerEats"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="149dp"
+        android:layout_marginEnd="203dp"
+        android:fontFamily="@font/be_vietnam_bold"
+        android:text="Verify OTP"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="142dp"
+        android:gravity="start"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/be_vietnam"
+            android:text="Remember your pasword? "
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/loginbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/be_vietnam"
+            android:text="Login"
+            android:textColor="@color/pink"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/codes"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:inputType="number"
+            android:background="@drawable/grey_color"
+            />
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:inputType="number"
+            android:background="@drawable/grey_color"
+            android:layout_marginStart="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et3"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:inputType="number"
+            android:background="@drawable/grey_color"
+            android:layout_marginStart="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et4"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:inputType="number"
+            android:background="@drawable/grey_color"
+            android:layout_marginStart="10dp"
+            />
+
+        <EditText
+            android:id="@+id/et5"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:inputType="number"
+            android:background="@drawable/grey_color"
+            android:layout_marginStart="10dp"
+            />
+    </LinearLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:id="@+id/submitbtn"
+        android:textSize="18dp"
+        android:backgroundTint="@color/pink"
+        android:fontFamily="@font/be_vietnam_bold"
+        android:text="Submit"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/codes"
+        />
+
+    <TextView
+        android:id="@+id/resendbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="151dp"
+        android:fontFamily="@font/be_vietnam_bold"
+        android:text="@string/resend"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/submitbtn"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

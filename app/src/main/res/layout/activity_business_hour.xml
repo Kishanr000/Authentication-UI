@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.BusinessHour">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="272dp"
+        android:fontFamily="@font/be_vietnam"
+        android:text="FarmerEats"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="273dp"
+        android:fontFamily="@font/be_vietnam"
+        android:text="Signup 4 of 4"
+        android:textSize="14dp"
+        android:textColor="#bdbdbd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtform"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="118dp"
+        android:layout_marginEnd="131dp"
+        android:fontFamily="@font/be_vietnam_bold"
+        android:text="Business Hours"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/be_vietnam"
+        android:text="Choose the hours your farm is open for pickups. This will allow customers to order deliveries."
+        android:textColor="#bdbdbd"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/li1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        >
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:background="@drawable/grey_color"
+            android:gravity="center"
+            android:text="M"
+            android:textSize="16dp"
+            android:id="@+id/txtview1"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/grey_color"
+            android:gravity="center"
+            android:text="T"
+            android:textSize="16dp"
+            android:id="@+id/txtview2"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/pinkcolor"
+            android:gravity="center"
+            android:text="W"
+            android:textSize="16dp"
+            android:id="@+id/txtview3"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/whiteroundcorner"
+            android:gravity="center"
+            android:text="Th"
+            android:textSize="16dp"
+            android:textColor="@color/grey"
+            android:id="@+id/txtview4"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/whiteroundcorner"
+            android:gravity="center"
+            android:text="F"
+            android:textSize="16dp"
+            android:textColor="@color/grey"
+            android:id="@+id/txtview5"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/whiteroundcorner"
+            android:gravity="center"
+            android:text="S"
+            android:textSize="16dp"
+            android:textColor="@color/grey"
+            android:id="@+id/txtview6"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="37dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="12dp"
+            android:background="@drawable/whiteroundcorner"
+            android:gravity="center"
+            android:text="Su"
+            android:textSize="16dp"
+            android:textColor="@color/grey"
+            android:id="@+id/txtview7"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/li1">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/time1"
+            android:layout_width="160dp"
+            android:layout_height="48dp"
+            android:background="@drawable/yellowcolor"
+            android:gravity="center"
+            android:text="8:00am - 10:00am"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:fontFamily="@font/be_vietnam" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/time2"
+            android:layout_width="160dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/yellowcolor"
+            android:gravity="center"
+            android:text="10:00am - 1:00pm"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:fontFamily="@font/be_vietnam" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/time3"
+            android:layout_width="160dp"
+            android:layout_height="48dp"
+            android:background="@drawable/grey_color"
+            android:gravity="center"
+            android:text="1:00pm - 4:00pm"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:fontFamily="@font/be_vietnam" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/time4"
+            android:layout_width="160dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/grey_color"
+            android:gravity="center"
+            android:text="4:00pm - 7:00pm"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:fontFamily="@font/be_vietnam" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/time5"
+            android:layout_width="160dp"
+            android:layout_height="48dp"
+            android:background="@drawable/grey_color"
+            android:gravity="center"
+            android:text="7:00pm - 10:00pm"
+            android:textColor="@color/black"
+            android:textSize="14dp"
+            app:fontFamily="@font/be_vietnam" />
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginBottom="54dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/pink"
+        android:fontFamily="@font/be_vietnam_bold"
+        android:text="Continue"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageButton
+        android:id="@+id/googlebtn"
+        android:layout_width="26dp"
+        android:layout_height="18dp"
+        android:layout_marginBottom="71dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="78dp"
+        android:background="@drawable/outline"
+        android:src="@drawable/baseline_arrow_back_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/loginbtn"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

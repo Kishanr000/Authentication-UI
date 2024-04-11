@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Software Lab</string>
+    <string name="login"><u>Login</u></string>
+    <string name="resend"><u>Resend Code</u></string>
+</resources>
